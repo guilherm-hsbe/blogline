@@ -85,4 +85,4 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente u
 ## Colaboração e Licença
 
 <!-- ─── EQUIPE ────────────────────────────── -->
-### Equipe e Colaborações
+### :busts_in_silhouette: Equipe e Colaborações
