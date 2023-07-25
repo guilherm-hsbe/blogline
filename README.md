@@ -81,6 +81,9 @@ Figma é uma ferramenta de design de interface do usuário (UI) e prototipagem c
 #### MySql e PHPMyAdmin
 O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente utilizado e de código aberto. Ele oferece suporte para armazenamento, manipulação e recuperação eficiente de dados. O PHPMyAdmin é uma interface gráfica baseada na web que facilita o gerenciamento do banco de dados MySQL, permitindo aos desenvolvedores executar consultas SQL, criar e modificar tabelas, gerenciar usuários, entre outras tarefas administrativas.
 
+<!-- ─── TEMPO ────────────────────────────── -->
+### :calendar: Linha do Tempo de Desenvolvimento
+
 <!-- ─── 3 - CONFIGURAÇÃO E DADOS--> 
 ## Configuração e Dados
 
