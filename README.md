@@ -59,7 +59,7 @@ O projeto será desenvolvido utlizando a arquitetura Modelo-Visão-Controlador (
 Essa separação proporciona modularidade, reutilização de código, escalabilidade e facilita a colaboração em projetos de desenvolvimento de software.
 
 <!-- ─── SOFTWARES ────────────────────────────── -->
-### :computer: Softwares e Tecnologias
+### :desktop_computer: Softwares e Tecnologias
 #### Laravel Framework
 Laravel é um framework PHP de código aberto muito popular para desenvolvimento web. Ele segue o padrão de arquitetura MVC, permitindo a organização estruturada do código e tornando o desenvolvimento mais eficiente. Com uma ampla gama de funcionalidades, como gerenciamento de rotas, autenticação, validação de formulários e interação com bancos de dados, o Laravel facilita a criação de aplicativos web robustos e seguros. Através do uso de bibliotecas e recursos integrados, o Laravel permite o desenvolvimento rápido e a implementação de várias funcionalidades-chave, tornando-o uma escolha popular para projetos web.
 
