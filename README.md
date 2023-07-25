@@ -100,7 +100,7 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente u
 ### :technologist: Equipe e Colaborações
 
 <!-- ─── LICENÇA ────────────────────────────── -->
-### :balance_scale: Licença e Direitos Autorais
+### :balance_scale: Licença
 
 <!-- ─── 5 - FEEDBACK E AGRADECIMENTOS --> 
 ## Feedback e Agradecimentos
