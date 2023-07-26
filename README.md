@@ -108,13 +108,16 @@ Até a última atualização deste README, **26 de julho de 2023**, eu [@guilher
 
 <!-- ─── LICENÇA ────────────────────────────── -->
 ### :balance_scale: Licença
-Este projeto é licenciado sob a [Licença MIT](github.com/guilherm-hsbe/Blogline/blob/main/LICENSE).
+Este projeto é [licenciado](github.com/guilherm-hsbe/Blogline/blob/main/LICENSE) sob a Licença MIT.
 
 A Licença MIT é uma licença de código aberto permissiva que oferece amplas liberdades aos usuários para usar, modificar, distribuir e até mesmo incorporar este software em projetos proprietários. Ela permite que você utilize este projeto livremente, sem restrições significativas, desde que a nota de direitos autorais e a declaração da licença sejam mantidas em todas as cópias.
 
 Você é incentivado a colaborar e contribuir para o desenvolvimento deste projeto. Se você deseja adicionar novas funcionalidades, corrigir problemas ou melhorar o código, fique à vontade para enviar suas contribuições através de "pull requests". Lembre-se de seguir as diretrizes de contribuição estabelecidas neste repositório.
 
 Embora esta licença permita o uso e a distribuição do projeto, não é permitido fazer cópias diretas da interface ou do código sem o devido consentimento. Se você estiver interessado em utilizar partes específicas deste projeto, por favor, entre em contato para obter permissão antes de proceder.
+
+### :shield: Segurança
+Relate quaisquer vulnerabilidades encontradas e proteja sua privacidade, pois no projeto são utilizados dados fictícios para visualização. Colaborações são bem-vindas, desde que sigam as [práticas de segurança ](github.com/guilherm-hsbe/Blogline/blob/main/SECURITY).
 
 <br>
 
