@@ -75,7 +75,7 @@ Essas são as linguagens essenciais para o desenvolvimento do projeto:
 #### Visual Studio Code
 O Visual Studio Code é um editor de código-fonte gratuito e altamente popular, desenvolvido pela Microsoft. Ele oferece suporte para várias linguagens de programação e possui uma ampla variedade de extensões, facilitando o desenvolvimento e a depuração de aplicativos web. O VS Code é conhecido por sua interface de usuário amigável, integração com controle de versão e várias ferramentas úteis para os desenvolvedores.
 
-#### Figma
+#### Figma [visualizar prototipagem :arrow_upper_right:](https://www.figma.com/file/ij6Q5zmvZdfiXuBa7yATTt/Blogline?type=design&node-id=0%3A1&mode=design&t=dSTYVoIy8RNE0tez-1)
 Figma é uma ferramenta de design de interface do usuário (UI) e prototipagem colaborativa baseada em nuvem. É amplamente usado por designers e desenvolvedores para criar wireframes, protótipos interativos e designs de interfaces. Através do Figma, a equipe pode colaborar em tempo real, facilitando o processo de design e garantindo que todos os membros estejam alinhados em relação ao visual e layout do projeto.
 
 #### MySql e PHPMyAdmin
@@ -98,9 +98,17 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente u
 
 <!-- ─── EQUIPE ────────────────────────────── -->
 ### :technologist: Equipe e Colaborações
+Até a última atualização deste README, **26 de julho de 2023**, eu [@guilherm-hsbe](github.com/guilherm-hsbe), sou o único desenvolvedor responsável por todas as etapas de criação e implementação da plataforma. No entanto, isso não significa que o projeto não esteja aberto para colaborações e contribuições de outros usuários interessados.
 
 <!-- ─── LICENÇA ────────────────────────────── -->
 ### :balance_scale: Licença
+Este projeto é licenciado sob a [Licença MIT](github.com/guilherm-hsbe/Blogline/blob/main/LICENSE).
+
+A Licença MIT é uma licença de código aberto permissiva que oferece amplas liberdades aos usuários para usar, modificar, distribuir e até mesmo incorporar este software em projetos proprietários. Ela permite que você utilize este projeto livremente, sem restrições significativas, desde que a nota de direitos autorais e a declaração da licença sejam mantidas em todas as cópias.
+
+Você é incentivado a colaborar e contribuir para o desenvolvimento deste projeto. Se você deseja adicionar novas funcionalidades, corrigir problemas ou melhorar o código, fique à vontade para enviar suas contribuições através de "pull requests". Lembre-se de seguir as diretrizes de contribuição estabelecidas neste repositório.
+
+Embora esta licença permita o uso e a distribuição do projeto, não é permitido fazer cópias diretas da interface ou do código sem o devido consentimento. Se você estiver interessado em utilizar partes específicas deste projeto, por favor, entre em contato para obter permissão antes de proceder.
 
 <!-- ─── 5 - FEEDBACK E AGRADECIMENTOS --> 
 ## Feedback e Agradecimentos
