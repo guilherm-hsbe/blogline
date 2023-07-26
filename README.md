@@ -113,7 +113,7 @@ Prototipagem completa de todas as telas do sistema. Esta etapa será executada a
 ## Colaboração e Licença
 
 <!-- ─── EQUIPE ────────────────────────────── -->
-### :technologist: Equipe e Colaborações
+### :computer: Equipe e Colaborações
 Até a última atualização deste README, **26 de julho de 2023**, eu [@guilherm-hsbe](github.com/guilherm-hsbe), sou o único desenvolvedor responsável por todas as etapas de criação e implementação da plataforma. No entanto, isso não significa que o projeto não esteja aberto para colaborações e contribuições de outros usuários interessados.
 
 <!-- ─── LICENÇA ────────────────────────────── -->
