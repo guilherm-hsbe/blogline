@@ -85,6 +85,16 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente u
 
 <!-- ─── TEMPO ────────────────────────────── -->
 ### :calendar: Linha do Tempo de Desenvolvimento
+Nesta seção, é apresentada uma breve cronologia das principais etapas de desenvolvimento do projeto de plataforma. A seguir, são destacados os principais marcos e eventos que contribuíram para o desenvolvimento do projeto.
+
+#### [Julho de 2023] - Planejamento e Definição de Objetivos
+Nesta fase inicial, a estrutura do arquivo **README** do projeto é definida, onde é configurado todo o corpo e apresentação da plataforma. Também são definidas as estruturas e configurações dos arquivos **LICENSE** e **SECURITY**, descrevendo respectivamente as informações de licenciamento e política de segurança.
+
+#### [Não iniciado] - Definição do Modelo de Dados
+Nesta etapa, é definida toda a configuração do modelo de dados do projeto, incluindo: definição de variáveis, tabelas e relações. Esta etapa será desenvolvida através do software MySQL, e toda a descrição do modelo de dados será definida na seção de **Modelo de Dados**.
+
+#### [Não iniciado] - Prototipação e Design da Interface
+Prototipagem completa de todas as telas do sistema. Esta etapa será executada através do software **Figma**. Mais informações a respeito da prototipagem podem ser encontradas no tópico **Figma** em **Softwares e Tecnologias**
 
 <br>
 
