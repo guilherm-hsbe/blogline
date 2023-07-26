@@ -44,6 +44,8 @@ Além do compartilhamento de trabalhos artísticos e discussões técnicas, algu
 - **Design Limpo e Responsivo:** A interface do blog será projetada para ser limpa, intuitiva e responsiva, proporcionando uma experiência agradável em diferentes dispositivos e tamanhos de tela.
 - **Desenvolvimento Aberto à Contribuições:** O projeto será desenvolvido em um ambiente de código aberto, encorajando outros desenvolvedores a contribuírem com melhorias, correções de bugs e novas funcionalidades.
 
+<br>
+
 <!-- ─── 2 - TECNOLOGIA E DESENVOLVIMENTO --> 
 ## Tecnologia e Desenvolvimento
 
@@ -84,6 +86,8 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente u
 <!-- ─── TEMPO ────────────────────────────── -->
 ### :calendar: Linha do Tempo de Desenvolvimento
 
+<br>
+
 <!-- ─── 3 - CONFIGURAÇÃO E DADOS--> 
 ## Configuração e Dados
 
@@ -92,6 +96,8 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente u
 
 <!-- ─── MODELO ────────────────────────────── -->
 ### :jigsaw: Modelo de Dados
+
+<br>
 
 <!-- ─── 4 - COLABORAÇÃO E LICENÇA --> 
 ## Colaboração e Licença
@@ -110,11 +116,20 @@ Você é incentivado a colaborar e contribuir para o desenvolvimento deste proje
 
 Embora esta licença permita o uso e a distribuição do projeto, não é permitido fazer cópias diretas da interface ou do código sem o devido consentimento. Se você estiver interessado em utilizar partes específicas deste projeto, por favor, entre em contato para obter permissão antes de proceder.
 
+<br>
+
 <!-- ─── 5 - FEEDBACK E AGRADECIMENTOS --> 
-## Feedback e Agradecimentos
+## Feedback e Contato
 
 <!-- ─── FEEDBACK ────────────────────────────── -->
-### :mailbox: Feedback e Contato
+### :clap: Feedback
+Se você visualizou a plataforma ou tem algum feedback, sugestão ou ideia para compartilhar, basta entrar em contato! Seu feedback é importante, pois ajuda a aprimorar os recursos oferecidos.
 
-<!-- ─── FEEDBACK ────────────────────────────── -->
-### :clap: Agradecimentos
+Caso tenha encontrado algum problema técnico ou identificado bugs durante a utilização, por favor, relate através da seção de **issues** no repositório do GitHub.
+
+<!-- ─── CONTATO ────────────────────────────── -->
+### :mailbox: Contato
+Para entrar em contato diretamente, você pode utilizar um dos seguintes canais:
+
+- E-mail :email: [guilherm3hsb@gmail.com](mailto:guilherm3hsb@gmail.com)
+- WhatsApp :calling: [+5518988058371](https://wa.me/5518988058371)
