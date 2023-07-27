@@ -13,14 +13,14 @@ currently being supported with security updates.
 -->
 
 
-# :lock: Política de Segurança
+## Política de Segurança
 A segurança do projeto é uma prioridade. Abaixo estão algumas informações importantes relacionadas à segurança que você deve estar ciente ao usar ou contribuir para o projeto.
 
-## Relatando Vulnerabilidades
+### Relatando Vulnerabilidades
 Se você descobrir alguma vulnerabilidade de segurança no projeto, você pode informar para que as medidas necessárias sejam tomadas para corrigi-las. Para relatar uma vulnerabilidade, crie um **issue** detalhado neste repositório, descrevendo o problema com o máximo de detalhes possível.
 
-## Dados Fictícios e Proteção de Privacidade
+### Dados Fictícios e Proteção de Privacidade
 O banco de dados do projeto contém **informações fictícias** criadas apenas para fins de visualização do sistema. Não são coletados nem armazenamos informações pessoais sensíveis dos usuários.
 
-## Responsabilidades dos Colaboradores
+### Responsabilidades dos Colaboradores
 Se você deseja contribuir para o projeto, siga as diretrizes de contribuição e práticas de segurança. Não são aceitas **cópias da interface ou do código** sem autorização prévia. Ao colaborar, você concorda em seguir as políticas de segurança do projeto.
