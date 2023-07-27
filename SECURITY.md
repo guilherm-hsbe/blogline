@@ -13,7 +13,7 @@ currently being supported with security updates.
 -->
 
 
-# :shield: Política de Segurança
+# :lock: Política de Segurança
 A segurança do projeto é uma prioridade. Abaixo estão algumas informações importantes relacionadas à segurança que você deve estar ciente ao usar ou contribuir para o projeto.
 
 ## Relatando Vulnerabilidades
