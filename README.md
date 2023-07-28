@@ -90,7 +90,7 @@ Nesta seção, é apresentada uma breve cronologia das principais etapas de dese
 #### [Julho de 2023] - Planejamento e Definição de Objetivos
 Nesta fase inicial, a estrutura do arquivo **README** do projeto é definida, onde é configurado todo o corpo e apresentação da plataforma. Também são definidas as estruturas e configurações dos arquivos **LICENSE** e **SECURITY**, descrevendo respectivamente as informações de licenciamento e política de segurança.
 
-#### [Não iniciado] - Definição do Modelo de Dados
+#### [Julho de 2023] - Definição do Modelo de Dados
 Nesta etapa, é definida toda a configuração do modelo de dados do projeto, incluindo: definição de variáveis, tabelas e relações. Esta etapa será desenvolvida através do software MySQL, e toda a descrição do modelo de dados será definida na seção de **Modelo de Dados**.
 
 #### [Não iniciado] - Prototipação e Design da Interface
