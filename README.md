@@ -102,7 +102,7 @@ Prototipagem completa de todas as telas do sistema. Esta etapa será executada a
 ## Configuração e Dados
 
 <!-- ─── INSTALAÇÃO ────────────────────────────── -->
-### :card_file_box: Instalação e Configuração
+### :card_file_box: Instalação e Configuraçãos
 
 <!-- ─── MODELO ────────────────────────────── -->
 ### :jigsaw: Modelo de Dados [(visualizar modelagem)](https://dbdiagram.io/d/64c2f19902bd1c4a5ed36005)
