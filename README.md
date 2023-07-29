@@ -106,7 +106,7 @@ Prototipagem completa de todas as telas do sistema. Esta etapa será executada a
 ## Configuração e Dados
 
 <!-- ─── INSTALAÇÃO ────────────────────────────── -->
-### :card_file_box: Instalação e Configuraçãos
+### :card_file_box: Instalação e Configurações
 > Seção ainda não desenvolvida, pois o projeto ainda não está em fase de programação.
 
 <br>
