@@ -60,6 +60,8 @@ O projeto será desenvolvido utlizando a arquitetura Modelo-Visão-Controlador (
 
 Essa separação proporciona modularidade, reutilização de código, escalabilidade e facilita a colaboração em projetos de desenvolvimento de software.
 
+<br>
+
 <!-- ─── SOFTWARES ────────────────────────────── -->
 ### :desktop_computer: Softwares e Tecnologias
 #### Laravel Framework
@@ -83,6 +85,8 @@ Figma é uma ferramenta de design de interface do usuário (UI) e prototipagem c
 #### MySql e PHPMyAdmin
 O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente utilizado e de código aberto. Ele oferece suporte para armazenamento, manipulação e recuperação eficiente de dados. O PHPMyAdmin é uma interface gráfica baseada na web que facilita o gerenciamento do banco de dados MySQL, permitindo aos desenvolvedores executar consultas SQL, criar e modificar tabelas, gerenciar usuários, entre outras tarefas administrativas.
 
+<br>
+
 <!-- ─── TEMPO ────────────────────────────── -->
 ### :calendar: Linha do Tempo de Desenvolvimento
 Nesta seção, é apresentada uma breve cronologia das principais etapas de desenvolvimento do projeto de plataforma. A seguir, são destacados os principais marcos e eventos que contribuíram para o desenvolvimento do projeto.
@@ -104,8 +108,27 @@ Prototipagem completa de todas as telas do sistema. Esta etapa será executada a
 <!-- ─── INSTALAÇÃO ────────────────────────────── -->
 ### :card_file_box: Instalação e Configuraçãos
 
+<br>
+
 <!-- ─── MODELO ────────────────────────────── -->
 ### :jigsaw: Modelo de Dados [(visualizar modelagem)](https://dbdiagram.io/d/64c2f19902bd1c4a5ed36005)
+Nesta seção, é apresentada a estrutura da base de dados do projeto, que foi projetada para suportar o funcionamento do Blogline.
+Abaixo está a descrição das principais tabelas e seus campos:
+
+#### Tabela 'usuarios'
+Esta tabela armazena informações sobre os usuários do blog, sejam eles administradores ou bloggers. Cada usuário possui um ID único, nome de login, senha criptografada e papel que indica seu nível de acesso (por exemplo, 1 para administrador, 2 para blogger). Além disso, são armazenados dados complementares, como nome completo, apelido, foto de perfil, biografia, data de nascimento, e informações de contato. O campo created_at registra a data e hora de criação do usuário.
+
+#### Tabela 'categorias'
+A tabela de categorias contém informações sobre as diferentes categorias de postagens disponíveis no blog. Cada categoria é identificada por um ID único e possui um título descritivo, uma breve descrição e uma URL para uma imagem associada. O campo created_at registra a data e hora de criação da categoria.
+
+#### Tabela 'postagens'
+Nesta tabela, são armazenadas as postagens ordinárias do blog. Cada postagem possui um ID único, um título, um título resumido para exibição em listas, o conteúdo completo em formato de texto, uma URL de imagem relacionada, um indicador de publicação (publicado), e o número de visualizações. O campo created_at registra a data e hora de criação da postagem. Além disso, há uma chave estrangeira usuario_id que relaciona cada postagem ao usuário que a criou.
+
+#### Tabela 'postagens_categorias'
+Essa tabela é usada para relacionar postagens com categorias em uma relação muitos para muitos. Cada entrada na tabela possui um ID único, bem como duas chaves estrangeiras: postagem_id, que faz referência ao ID da postagem, e categoria_id, que faz referência ao ID da categoria associada à postagem. O campo created_at registra a data e hora em que a relação foi criada.
+
+#### Tabela 'comentarios'
+A tabela de comentários armazena os comentários feitos pelos usuários em cada postagem. Cada comentário possui um ID único, e duas chaves estrangeiras: postagem_id, que faz referência ao ID da postagem à qual o comentário está associado, e usuario_id, que faz referência ao ID do usuário que fez o comentário. O campo created_at registra a data e hora de criação do comentário.
 
 <br>
 
@@ -128,8 +151,6 @@ Embora esta licença permita o uso e a distribuição do projeto, não é permit
 
 ### :shield: Segurança
 Relate quaisquer vulnerabilidades encontradas e proteja sua privacidade, pois no projeto são utilizados dados fictícios para visualização. Colaborações são bem-vindas, desde que sigam as [práticas de segurança ](github.com/guilherm-hsbe/Blogline/blob/main/SECURITY).
-
-<br>
 
 <!-- ─── 5 - FEEDBACK E AGRADECIMENTOS --> 
 ## Feedback e Contato
