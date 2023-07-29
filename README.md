@@ -152,6 +152,8 @@ Embora esta licença permita o uso e a distribuição do projeto, não é permit
 ### :shield: Segurança
 Relate quaisquer vulnerabilidades encontradas e proteja sua privacidade, pois no projeto são utilizados dados fictícios para visualização. Colaborações são bem-vindas, desde que sigam as [práticas de segurança ](github.com/guilherm-hsbe/Blogline/blob/main/SECURITY).
 
+<br>
+
 <!-- ─── 5 - FEEDBACK E AGRADECIMENTOS --> 
 ## Feedback e Contato
 
