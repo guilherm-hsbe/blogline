@@ -7,6 +7,7 @@
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@900&family=Mukta:wght@700&family=Noto+Sans:wght@700&family=Rubik:wght@600&display=swap" rel="stylesheet">
 
     <!-- Ícone -->
-    <link rel="icon" type="image/x-icon" href="ttps://images.emojiterra.com/twitter/v13.1/512px/1f343.png">
+    <link rel="icon" type="image/x-icon" href="images/leaf.png">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/Prototipagem/styles/style.css">
@@ -37,7 +38,10 @@
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto ft-1">
-                    <a class="nav-link active fw-semibold" aria-current="page" href="#">Início</a>
+                    <a class="nav-link active fw-semibold" aria-current="page" href="#">
+                        <i class="bi bi-house-door-fill"></i>
+                        Início
+                    </a>
                     <a class="nav-link fw-medium" href="#">Autores</a>
                     <a class="nav-link fw-medium" href="#">Sobre o blog</a>
                 </div>
@@ -47,9 +51,7 @@
             <form class="d-flex" role="search">
                 <button class="btn btn-success user-select-none rounded-3 botao-inscricao" type="submit">
                     Comece a escrever
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill ms-1" viewBox="0 0 16 16">
-                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
-                    </svg>
+                    <i class="bi bi-pencil-fill"></i>
                 </button>
             </form>
         </div>
@@ -59,17 +61,105 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://bst.icons8.com/wp-content/themes/icons8/app/uploads/2018/07/summer-illustration-digital-art.jpg" 
-                    class="w-100 position-relative" alt="Destaque..." style="height:400px; object-fit:cover" draggable="false">
+                <div class="w-100"></div>
+                <img src="images/destaque.jpg" class="w-100 position-relative img-destaque" alt="Destaque..." draggable="false">
 
-                <div class="carousel-caption d-none d-md-block" style="bottom:12.25rem">
-                    <p class="ft-1 fw-semibold" style="margin-bottom:-0.8rem;">EM DESTAQUE</p>
+                <div class="carousel-caption d-none d-md-block" style="bottom:25rem">
+                    <p class="ft-1 fw-semibold user-select-none shd-t-1" style="margin-bottom:-0.8rem;">EM DESTAQUE</p>
                     <hr class="mx-auto border-white border-2" style="width:80px;">
 
-                    <h1 class="fw-bolder">ILUSTRAÇÕES INSPIRADORAS</h5>
-                    <p class="fs-5">John Doe</p>
+                    <h1 class="fw-bolder shd-t-1">ILUSTRAÇÕES INSPIRADORAS</h5>
+                    <p class="fs-5 fw-medium shd-t-1">por John Doe</p>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!--! Tabs -->
+    <div class="bg-body-secondary h-100 pt-4">
+        <ul class="nav nav-pills nav-justified w-50 mx-auto" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button type="button" class="nav-link active fw-semibold text-dark"
+                    id="pills-rec-tab" data-bs-toggle="pill" data-bs-target="#pills-rec" 
+                    role="tab" aria-controls="pills-rec" aria-selected="true">Mais recentes</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button type="button" class="nav-link fw-medium text-dark" id="pills-pop-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-pop" role="tab" aria-controls="pills-pop" aria-selected="true">Populares</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button type="button" class="nav-link fw-medium text-dark" id="pills-mus-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-mus" role="tab" aria-controls="pills-mus" aria-selected="true">Música</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button type="button" class="nav-link fw-medium text-dark" id="pills-art-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-art" role="tab" aria-controls="pills-art" aria-selected="true">Arte</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button type="button" class="nav-link fw-medium text-dark" id="pills-cult-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-cult" role="tab" aria-controls="pills-cult" aria-selected="true">Cultura</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button type="button" class="nav-link fw-medium text-dark" id="pills-ids-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-ids" role="tab" aria-controls="pills-ids" aria-selected="true">Ideias</button>
+            </li>
+        </ul>
+    </div>
+
+    <!--! Postagens -->
+    <div class="tab-content cor-primaria-fundo pt-5" style="height:100vw;" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-rec" role="tabpanel" aria-labelledby="pills-rec-tab" tabindex="0">
+            <div class="row mx-auto">
+
+                <!--* Postagem maior -->
+                <div class="container-fluid col-6 p-3">
+                    <img src="images/post-musica.png" alt="..." class="w-100 h-75 rounded-3" style="object-fit:cover;">
+                    <p class="fw-medium text-secondary mt-3">MÚSICA</p>
+                    <h3 class="fw-semibold">Melhores tecnicas de produção musical.</h3>
+                    <p>Neste artigo você ficará por dentro das melhores ténicas de produção musical utilizadas pelos melhores e mais
+                        famosos
+                        músicos da atualidade.
+                    </p>
+                </div>
+
+                <!--* Postagens menores -->
+                <div class="col-4 col-lg-4 col-md-6 mt-5">
+                    <div class="container-fluid p-3 row w-75">
+                        <p class="fw-medium text-secondary mt-3">MÚSICA</p>
+                        <h5 class="fw-semibold">Melhores tecnicas de produção musical.</h5>
+                        <p>Neste artigo você ficará por dentro das melhores ténicas de produção musical utilizadas pelos melhores e mais
+                            famosos
+                            músicos da atualidade.
+                        </p>
+                    </div>
+                
+                    <div class="container-fluid p-3 row w-75">
+                        <p class="fw-medium text-secondary mt-3">MÚSICA</p>
+                        <h5 class="fw-semibold">Melhores tecnicas de produção musical.</h5>
+                        <p>Neste artigo você ficará por dentro das melhores ténicas de produção musical utilizadas pelos melhores e mais
+                            famosos
+                            músicos da atualidade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-pop" role="tabpanel" aria-labelledby="pills-pop-tab" tabindex="0">...
+        </div>
+
+        <div class="tab-pane fade" id="pills-mus" role="tabpanel" aria-labelledby="pills-mus-tab" tabindex="0">...
+        </div>
+
+        <div class="tab-pane fade" id="pills-cult" role="tabpanel" aria-labelledby="pills-cult-tab" tabindex="0">...
+        </div>
+
+        <div class="tab-pane fade" id="pills-ids" role="tabpanel" aria-labelledby="pills-ids-tab" tabindex="0">...
         </div>
     </div>
 
