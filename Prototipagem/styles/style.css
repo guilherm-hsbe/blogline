@@ -1,0 +1,31 @@
+/** Variáveis */
+:root {
+    --cor-primaria: #43B978;
+}
+
+/** Geral */
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/** Classes reutilizáveis */
+.ft-1 {
+    font-size: 18px;
+}
+
+/** Classes estáticas */
+/*? ícone à esquerda da navbar */
+.icone-pagina {
+    transition: 0.3s;
+}
+.icone-pagina:hover {
+    transform: translateX(5px);;
+}
+
+/*? botão de inscrição da navbar */
+.botao-inscricao {
+    transition: 0.2s;
+}
+.botao-inscricao:hover {
+    box-shadow: 0 5px 0 #82cbac;
+}
