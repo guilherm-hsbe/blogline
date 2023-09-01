@@ -97,8 +97,8 @@ Nesta fase inicial, a estrutura do arquivo **README** do projeto é definida, on
 #### [Julho de 2023] - Definição do Modelo de Dados
 Nesta etapa, é definida toda a configuração do modelo de dados do projeto, incluindo: definição de variáveis, tabelas e relações. Esta etapa será desenvolvida através do software MySQL, e toda a descrição do modelo de dados será definida na seção de **Modelo de Dados**.
 
-#### [Não iniciado] - Prototipação e Design da Interface
-Prototipagem completa de todas as telas do sistema. Esta etapa será executada através do software **Figma**. Mais informações a respeito da prototipagem podem ser encontradas no tópico **Figma** em **Softwares e Tecnologias**
+#### [Setembro de 2023] - Prototipação e Design da Interface
+Prototipagem completa de todas as telas do sistema. Esta etapa está sendo executada através do software **Figma**. Mais informações a respeito da prototipagem podem ser encontradas no tópico **Figma** em **Softwares e Tecnologias**
 
 <br>
 
