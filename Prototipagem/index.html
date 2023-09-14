@@ -27,7 +27,7 @@
             <!-- Ícone e título -->
             <div class="navbar-brand d-flex">
                 <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f343.png" class="ms-1 icone-pagina" draggable="false" alt="Bootstrap" width="35" height="35">
-                <span class="mb-0 mx-3 h4 fw-bold mt-1 user-select-none">Blogline</span>
+                <a href="" class="mb-0 mx-3 h4 fw-bold mt-1 text-decoration-none titulo-nav">Blogline</a>
 
                 <!-- Toggler -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
 
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto ft-1">
+                <div class="navbar-nav ft-1">
                     <a class="nav-link active fw-semibold" aria-current="page" href="#">
                         <i class="bi bi-house-door-fill"></i>
                         Início
@@ -47,9 +47,18 @@
                 </div>
             </div>
 
+            <!-- Pesquisa -->
+            <form class="d-flex mx-3 me-2" role="search">
+                <input type="search" placeholder="Pesquisar..." aria-label="Search" hidden>
+                <button class="btn bg-transparent w-100" type="submit">
+                    <i class="bi bi-search"></i>
+                    Pesquisar
+                </button>
+            </form>
+
             <!-- Botão -->
             <form class="d-flex" role="search">
-                <button class="btn btn-success user-select-none rounded-3 botao-inscricao" type="submit">
+                <button class="btn btn-success user-select-none rounded-5 botao-inscricao" type="submit">
                     Comece a escrever
                     <i class="bi bi-pencil-fill"></i>
                 </button>
@@ -60,8 +69,9 @@
     <!--! Destaque -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+
+            <!-- Destaque 1 -->
             <div class="carousel-item active">
-                <div class="w-100"></div>
                 <img src="images/destaque.jpg" class="w-100 position-relative img-destaque" alt="Destaque..." draggable="false">
 
                 <div class="carousel-caption d-none d-md-block" style="bottom:25rem">
@@ -112,54 +122,106 @@
     </div>
 
     <!--! Postagens -->
-    <div class="tab-content cor-primaria-fundo pt-5" style="height:100vw;" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-rec" role="tabpanel" aria-labelledby="pills-rec-tab" tabindex="0">
-            <div class="row mx-auto">
+    <div class="tab-content cor-primaria-fundo pt-5 pb-5"  id="pills-tabContent">
 
-                <!--* Postagem maior -->
-                <div class="container-fluid col-6 p-3">
-                    <img src="images/post-musica.png" alt="..." class="w-100 h-75 rounded-3" style="object-fit:cover;">
-                    <p class="fw-medium text-secondary mt-3">MÚSICA</p>
-                    <h3 class="fw-semibold">Melhores tecnicas de produção musical.</h3>
-                    <p>Neste artigo você ficará por dentro das melhores ténicas de produção musical utilizadas pelos melhores e mais
-                        famosos
-                        músicos da atualidade.
-                    </p>
+        <!-- Recentes -->
+        <div class="tab-pane fade show active" id="pills-rec" role="tabpanel" aria-labelledby="pills-rec-tab" tabindex="0">
+
+            <!-- Primeira linha -->
+            <div class="row mx-auto">
+                <!--* Postagem mais recente (destaque, maior) -->
+                <div class="container-fluid col-6 rounded-4 shadow-sm p-0">
+                    <img src="images/post-musica.png" alt="..." class="w-100 h-75 rounded-top-4" style="object-fit:cover;" draggable="false">
+                    <div class="pt-3 ps-5">
+                        <p class="fw-medium text-secondary mt-3">MÚSICA <span class="fw-normal ft-2">01/09/2023</span></p>
+                        <h3 class="fw-semibold">Melhores Tecnicas de Produção Musical</h3>
+                    </div>
                 </div>
 
-                <!--* Postagens menores -->
+                <!--* Postagens seguintes (direita, menores) -->
                 <div class="col-4 col-lg-4 col-md-6 mt-5">
                     <div class="container-fluid p-3 row w-75">
-                        <p class="fw-medium text-secondary mt-3">MÚSICA</p>
-                        <h5 class="fw-semibold">Melhores tecnicas de produção musical.</h5>
-                        <p>Neste artigo você ficará por dentro das melhores ténicas de produção musical utilizadas pelos melhores e mais
-                            famosos
-                            músicos da atualidade.
-                        </p>
+                        <p class="fw-medium text-secondary mt-3">ARTE <span class="fw-normal ft-2">27/08/2023</span></p>
+                        <h5 class="fw-semibold">Novas Tendências na Pintura Contemporânea</h5>
                     </div>
                 
                     <div class="container-fluid p-3 row w-75">
-                        <p class="fw-medium text-secondary mt-3">MÚSICA</p>
-                        <h5 class="fw-semibold">Melhores tecnicas de produção musical.</h5>
-                        <p>Neste artigo você ficará por dentro das melhores ténicas de produção musical utilizadas pelos melhores e mais
-                            famosos
-                            músicos da atualidade.
-                        </p>
+                        <p class="fw-medium text-secondary mt-3">CULTURA <span class="fw-normal ft-2">21/08/2023</span></p>
+                        <h5 class="fw-semibold">Transformando Materiais em Obras-Primas</h5>
+                    </div>
+
+                    <div class="container-fluid p-3 row w-75">
+                        <p class="fw-medium text-secondary mt-3">CULTURA <span class="fw-normal ft-2">18/08/2023</span></p>
+                        <h5 class="fw-semibold">Transformando Materiais em Obras-Primas</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda linha -->
+            <div class="row mx-auto mt-5" style="width: 90.9vw;">
+                <div class="container-fluid col-3 p-0">
+                    <img src="images/post2.jpg" alt="..." class="w-100 rounded-3" style="object-fit:cover; height:200px;" draggable="false">
+                    <div class="pt-3 ps-2">
+                        <p class="fw-medium text-secondary mt-3">ARTE <span class="fw-normal ft-2">14/08/2023</span></p>
+                        <h5 class="fw-semibold">Explorando a Expressão Pessoal Através da Pintura de Si Mesmo</h3>
+                    </div>
+                </div>
+
+                <div class="container-fluid col-3 p-0">
+                    <img src="images/post-musica.png" alt="..." class="w-100 rounded-3" style="object-fit:cover; height:200px;" draggable="false">
+                    <div class="pt-3 ps-2">
+                        <p class="fw-medium text-secondary mt-3">IDEIAS <span class="fw-normal ft-2">10/08/2023</span></p>
+                        <h5 class="fw-semibold">O Futuro da Expressão Criativa</h3>
+                    </div>
+                </div>
+
+                <div class="container-fluid col-3 p-0">
+                    <img src="images/post-musica.png" alt="..." class="w-100 rounded-3" style="object-fit:cover; height:200px;" draggable="false">
+                    <div class="pt-3 ps-2">
+                        <p class="fw-medium text-secondary mt-3">ARTE <span class="fw-normal ft-2">08/08/2023</span></p>
+                        <h5 class="fw-semibold">Arte Narrativa Através das Instalações de Escultura</h3>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- Populares -->
         <div class="tab-pane fade" id="pills-pop" role="tabpanel" aria-labelledby="pills-pop-tab" tabindex="0">...
         </div>
 
+        <!-- Música -->
         <div class="tab-pane fade" id="pills-mus" role="tabpanel" aria-labelledby="pills-mus-tab" tabindex="0">...
         </div>
 
+        <!-- Cultura -->
         <div class="tab-pane fade" id="pills-cult" role="tabpanel" aria-labelledby="pills-cult-tab" tabindex="0">...
         </div>
 
+        <!-- Ideias -->
         <div class="tab-pane fade" id="pills-ids" role="tabpanel" aria-labelledby="pills-ids-tab" tabindex="0">...
+        </div>
+    </div><!-- postagens -->
+
+    <!--! Contato -->
+    <div class="card text-center mt-5 border-0 rounded-0 bg-body-secondary">
+        <div class="card-body row w-100 mt-3">
+            <div class="col-6">
+                <h5>LINKS ÚTEIS</h5>
+                <p class="m-2">Sobre o blog</p>
+                <p class="m-2">Autores</p>
+                <p class="m-2">Início</p>
+            </div   >
+    
+            <div class="col-6">
+                <h5>CONTATO</h5>
+                <p> 123, Rua das Flores, Bairro da Imaginação <br>
+                    Cidade dos Sonhos, SP, 12345-678, Brasil</p>
+    
+                <div class="d-inline-flex mx-auto">
+                    <h5 class="bi bi-github mx-2"></h5>
+                    <h5 class="bi bi-whatsapp"></h5>
+                </div>
+            </div>
         </div>
     </div>
 

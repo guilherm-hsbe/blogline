@@ -1,27 +1,78 @@
-/*! Variáveis */
+/*! Variáveis CSS ────────────────────────────────────────────────────────────────────────── */
 :root {
-    --cor-primaria: #43B978;
+    --verde-vibrante: #10B16B;
+    --verde-cinza-leve: #dbdddd;
 }
 
-.cor-primaria-fundo {
-    background-color: var(--bs-tertiary-bg);
+.color-1 {
+    background-color: var(--verde-vibrante);
 }
-.cor-primaria {
-    color: var(--bs-success);
+.color-2 {
+    background-color: var(--verde-cinza-leve);
 }
 
-/*! Geral */
+/*! Estilos Globais ────────────────────────────────────────────────────────────────────────── */
 * {
     font-family: 'Inter', sans-serif;
 }
 
-/*! Modificando Bootstrap */
+/*! Classes Reutilizáveis ────────────────────────────────────────────────────────────────────────── */
+/*tamanho de fonte 1*/
+.ft-1 {
+    font-size: 18px;
+}
+
+/*tamanho de fonte 2*/
+.ft-2 {
+    font-size: 14px;
+}
+
+/*sombra de fonte 1*/
+.shd-t-1 {
+    text-shadow: 0 0 20px #000000c7;
+}
+
+/*! Classes Estáticas ────────────────────────────────────────────────────────────────────────── */
+
+/*: NavBar ────────────────────────────────────── */
+/** ícone do blogline */
+.icone-pagina {
+    transition: 0.3s;
+}
+.icone-pagina:hover {
+    transform: translateX(5px);
+}
+
+/** título da navbar */
+.titulo-nav {
+    transition: 0.2s;
+}
+.titulo-nav:hover {
+    transform: translateY(2px);
+}
+
+/** botão de inscrição da navbar */
+.botao-inscricao {
+    transition: 0.2s;
+}
+.botao-inscricao:hover {
+    box-shadow: 0 5px 0 #82cbac;
+}
+
+/*? Seção de Destaque ────────────────────────────────────── */
+/** imagem de destaque */
+.img-destaque {
+    height: 45vw; 
+    object-fit: cover;
+}
+
+/*! Modificando Bootstrap ────────────────────────────────────────────────────────────────────────── */
 /** efeito hover nos links da navbar */
 .navbar-nav .nav-link{
     transition: 0.2s;
 }
 .navbar-nav .nav-link:hover {
-    color: var(--cor-primaria) !important;
+    color: var(--verde-vibrante) !important;
 }
 
 /** cor principal nos links das tabs */
@@ -34,38 +85,6 @@
 /** raio da borda dos botões das tabs */
 .nav-pills .nav-link {
     border-radius: 0;
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-}
-
-/*! Classes reutilizáveis */
-.ft-1 {
-    font-size: 18px;
-}
-
-.shd-t-1 {
-    text-shadow: 0 0 20px #000000c7;
-}
-
-/*! Classes estáticas */
-/** ícone à esquerda da navbar */
-.icone-pagina {
-    transition: 0.3s;
-}
-.icone-pagina:hover {
-    transform: translateX(5px);;
-}
-
-/** efeito sombra 3d no botão de inscrição da navbar */
-.botao-inscricao {
-    transition: 0.2s;
-}
-.botao-inscricao:hover {
-    box-shadow: 0 5px 0 #82cbac;
-}
-
-/** imagem de destaque */
-.img-destaque {
-    height: 45vw; 
-    object-fit: cover;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
 }
