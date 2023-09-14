@@ -34,7 +34,7 @@
 
 /*! Classes Estáticas ────────────────────────────────────────────────────────────────────────── */
 
-/*: NavBar ────────────────────────────────────── */
+/*? NavBar ────────────────────────────────────── */
 /** ícone do blogline */
 .icone-pagina {
     transition: 0.3s;
@@ -49,6 +49,27 @@
 }
 .titulo-nav:hover {
     transform: translateY(2px);
+}
+
+/** barra de pesquisa */
+#barraPesquisa {
+    border-radius: 1rem;
+    border: 1px solid #ececec;
+    padding: 0.3rem;
+    background-color: white;
+    
+    /* transição suave */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1s ease-in-out, visibility 0.1s ease-in-out;
+}
+#barraPesquisa.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#botaoPesquisa:hover {
+    color: #196c3c
 }
 
 /** botão de inscrição da navbar */
@@ -66,6 +87,15 @@
     object-fit: cover;
 }
 
+/*? Postagens - primeira página - linha inferior de 3 postagens ────────────────────────────────────── */
+/** imagem das postagens */
+.img-post {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
 /*! Modificando Bootstrap ────────────────────────────────────────────────────────────────────────── */
 /** efeito hover nos links da navbar */
 .navbar-nav .nav-link{
@@ -78,7 +108,7 @@
 /** cor principal nos links das tabs */
 .nav-pills .active {
     transition: 0.2s;
-    background-color: var(--bs-tertiary-bg) !important;
+    background-color: white !important;
     color: var(--bs-success) !important;
 }
 
